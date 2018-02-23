@@ -40,3 +40,5 @@ module.exports = {
 
 ### webpack打包后的结果
 ![pic](./images/2.png)
+
+**提示：**可以根据需要设置template的lang语法以及style的lang语法
