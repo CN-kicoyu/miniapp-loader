@@ -2,13 +2,13 @@
 
 > 解析拆分单页面模块`<template>` `<script>` `<style>`至对应的html,js,css文件
 
-## 安装
+### 安装
 
 ```bash
 npm install miniprogram-loader --save-dev
 ```
 
-## 配置使用 (以配置微信小程序为例)
+### 配置使用 (以配置微信小程序为例)
 **webpack.config.js**
 ```js
 module.exports = {
@@ -32,11 +32,11 @@ module.exports = {
 }
 ```
 
-## 单页面的结构
+### 单页面的结构
 
 参照vue的设计单例
 
 ![pic](./images/1.png)
 
-## webpack打包后的结果
+### webpack打包后的结果
 ![pic](./images/2.png)
