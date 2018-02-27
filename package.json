@@ -1,5 +1,5 @@
 {
-  "name": "miniprogram-loader",
+  "name": "miniapp-loader",
   "version": "1.0.0",
   "description": "Mini Program single-file component loader for Webpack",
   "main": "index.js",
@@ -8,6 +8,7 @@
   },
   "keywords": [
     "miniprogram",
+    "miniapp",
     "webpack",
     "loader"
   ],
@@ -25,9 +26,13 @@
     "vue-template-compiler": "^2.3.3"
   },
   "license": "MIT",
-  "author": "kicoyu@126.com",
+  "author": "kicoyu < kicoyu@126.com >",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CN-kicoyu/miniprogram-loader.git"
-  }
+    "url": "git+ssh://git@github.com/CN-kicoyu/miniapp-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CN-kicoyu/miniapp-loader/issues"
+  },
+  "homepage": "https://github.com/CN-kicoyu/miniapp-loader#readme"
 }
