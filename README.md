@@ -5,7 +5,7 @@
 ### 安装
 
 ```bash
-npm install miniprogram-loader --save-dev
+npm install miniapp-loader --save-dev
 ```
 
 ### 配置使用 (以配置微信小程序为例)
@@ -17,7 +17,7 @@ module.exports = {
       {
         // 可自行设置需要的模板后缀
         test: /\.kico$/,
-        loader: 'miniprogram-loader',
+        loader: 'miniapp-loader',
         options: {
           // 配置解析html后缀
           htmlExt: 'wxml',
